@@ -1,0 +1,92 @@
+/* PAGE*/
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.back{
+    
+    background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 1) ), url('https://img-cdn.inc.com/image/upload/f_webp,q_auto,c_fit/images/panoramic/grace-ling-runway-inc-GettyImages-2170868233_545141_dhygqc.jpg');
+    background-position: 50% 50%;*
+}
+.index-container{
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    max-width: 95%;
+    border: 1px blue solid;
+    margin:0 auto;
+    min-height: 100dvh
+}
+
+.index-header{
+    outline: solid 1px red;
+    display:flex;
+    justify-content: space-between;
+    color:white
+ 
+}
+
+.language{
+    border-radius: 4px;
+    background-color: transparent;
+    color: white;
+}
+.index-main{
+    display:flex;
+    flex:1;
+    justify-content: center;
+    align-items: center;
+    border:3px solid green;
+    max-width: 100%;
+}
+
+.hero {
+    flex-wrap: wrap;
+    justify-content: center;
+    display: flex;
+    gap:3rem;
+    
+}
+
+.online-shop, .online-closet{
+    position:relative;
+    padding: 5em 7em;
+    background-color: transparent;
+    border: 1px solid aliceblue;
+    color: black;
+    background-color: white;
+    cursor: pointer;
+
+}
+.online-shop h3{
+
+}
+
+
+/*SHOP PAGE*/
+.shop-container{
+    border: 1px solid black;
+    display:flex;
+    flex-direction: column;
+    margin:0 auto;
+    max-width: 95%;
+    min-height: 100dvh;
+}
+.shop-header{
+    margin: 0 auto;
+    padding: 2em;
+    margin-bottom:5em
+}
+.catalogue{
+    text-align: center;
+    margin-bottom:1em
+}
+
+.filters{
+    max-width: 100%;
+    margin: auto;
+    
+}
